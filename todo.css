@@ -1,0 +1,84 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+
+}  
+body{
+    background-color: rgba(238, 236, 192, 0.937);
+}
+.container{
+    text-align: center;
+    background-color: rgba(75, 30, 180, 0.533); 
+    padding: 30px; 
+    margin-left: 100px;
+    margin-right: 100px; 
+    border-radius: 15px;
+    
+    margin-bottom:20px;
+} 
+#input{
+    padding: 10px; 
+    border-right-color:rgba(72, 130, 27, 0); 
+    border-radius: 10px;  
+    width:50% ; 
+    font-size: large; 
+    font-family:"ROBOTO";
+    justify-content: space-between; 
+    color:blue; 
+    border-bottom-right-radius: 25px;
+   
+} 
+.headding{
+    text-align: center;
+    background-color: rgb(227, 140, 26); 
+    padding: 20px; 
+    margin-left: 100px;
+    margin-right: 100px;  
+    border-bottom: 10px solid white; 
+    margin-top: 30px;  
+    
+    border-radius: 10px; 
+    margin-bottom: 15px;
+
+
+
+} 
+#btn{
+    padding: 9px;
+    border: 2px solid ;
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-left:5px; 
+    font-weight:bold;
+}
+#btn:hover{
+    background-color: rgb(14, 17, 16);
+    color: white;
+} 
+.search{
+    border: 2px solid;
+    margin-left:10px; 
+    border-radius: 3px; 
+    margin-right: 10px; 
+    float: right; 
+    padding: 3px;
+    font-weight: bold;
+} 
+.search:hover{
+color:white;
+background-color:black;
+
+}
+.origin{
+    float: right;
+    border: 2px solid;
+    margin-left:10px; 
+    border-radius: 3px; 
+    margin-right: 10px; 
+    font-weight: bold;
+    padding: 3px;
+} 
+.origin:hover{
+    color:white;
+    background-color: rgb(0, 0, 0);
+} 
